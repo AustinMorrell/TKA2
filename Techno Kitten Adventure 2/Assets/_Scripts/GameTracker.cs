@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class GameTracker : MonoBehaviour {
 
-    Player You;
     [SerializeField]
     private GameObject Fire;
     [SerializeField]
@@ -21,7 +20,6 @@ public class GameTracker : MonoBehaviour {
     {
         Score = 0;
         DoIt = false;
-        You = gameObject.GetComponent<GameCon>().Char;
 	}
 
     // Update is called once per frame

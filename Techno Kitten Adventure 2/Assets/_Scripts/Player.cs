@@ -1,13 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System;
 
-[Serializable]
 public class Player : MonoBehaviour {
 
     public float speed;
 
-    [Serializable]
     protected class Box
     {
         public float MinX, MinY, MaxX, MaxY;

@@ -10,7 +10,8 @@ public class SaveLoad : MonoBehaviour
 
 	void Awake()
     {
-
+        //Save();
+        //Load();
     }
 
     public void Save()
